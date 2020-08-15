@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Dynamic Team Page</title>
+</head>
+
+<body>
+  <header class="main-header">
+		<div class="main-header-inner">
+			<div class="main-header-logo-wrapper">
+				<a href="index.html" target="_self">
+					<img class="main-header-logo" src="images/Logolabel.png" alt="Logo">
+				</a>
+			</div>
+
+			<div class="main-header-right">
+				<div id="search" class="main-header-search">
+					<form id="searchForm">
+						<h2 class="hidden">Main header search</h2>
+						<label for="search-input" class="hidden">Search</label>
+						<input id="search-input" type="text" name="search" placeholder="Search...">
+					</form>
+				</div>
+
+				<nav class="main-header-nav-wrapper nav">
+					<ul class="main-header-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="products.html">product</a></li>
+						<li><a href="advertisement.html">Advertisements</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+  <div class="team-container">
+    <div class="teammate">
+      <h2 class="title">Our Team</h2>
+    </div>
+
+  <div class="team">
+    <div id="jay" class="control">
+      <img class="jay" src="images/Jay.jpg" alt="Jay">
+      <button class="toggle-bottle-info" data-id="0">Learn More</button>
+    </div>
+
+    <div id="superman" class="control">
+      <img class="superman" src="images/superman.jpg" alt="superman">
+      <button class="toggle-bottle-info" data-id="0">Learn More</button>
+    </div>
+
+    <div id="spider-man" class="control">
+      <img class="spiderman" src="images/spider-man.jpg" alt="spiderman">
+      <button class="toggle-bottle-info" data-id="0">Learn More</button>
+    </div>
+</div>
+
+<div class="info-wrapper"></div>
+    <!--h1 id="my-head">Some placeholder text</h1>
+    <p>more placeholder text</p>
+
+    <button id="my-button">click me!</button-->
+</div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
