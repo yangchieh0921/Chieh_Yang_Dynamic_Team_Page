@@ -1,0 +1,165 @@
+body {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-image: url('../images/BottleBackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-header-inner {
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 992px;
+}
+
+.main-header-logo {
+  display: block;
+  width: 240px;
+  height: auto;
+}
+
+
+.main-header {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main-header-inner {
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 992px;
+}
+
+.main-header-search {
+  text-align: right;
+
+}
+
+.main-header-logo-wrapper a {
+  display: inline-block;
+}
+
+.main-header-logo {
+  display: block;
+  width: 240px;
+  height: auto;
+}
+
+.main-header-nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.main-header-nav li:last-child {
+  margin-right: 0;
+}
+
+.nav li a {
+  display: inline-block;
+  color: black;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: red;
+
+  text-decoration: underline;
+  transform: scale(1.125);
+}
+
+.nav li a:focus {
+  color: red;
+  text-decoration: underline;
+  transform: scale(1.125);
+}
+
+.main-page-title {
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 992px;
+}
+
+.team-container {
+  min-width: 900px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+
+}
+
+.teammate {
+  text-align: center;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 980px;
+  }
+
+.title {
+    font-size: 48px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+.jay {
+  width: 300px;
+  height: 300px;
+}
+
+.superman {
+  width: 300px;
+  height: 300px;
+}
+
+.spiderman {
+  width: 300px;
+  height: 300px;
+}
+
+.toggle-bottle-info {
+  margin-top: 1.5rem;
+  padding: .75rem 1.5rem;
+  display: inline-block;
+  color: white;
+  font-size: 1.125rem;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 30px;
+  transition: all .3s ease;
+  margin-left: 80px;
+}
+
+.control {
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.info-wrapper {
+  border: solid;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 0 auto;
+  text-align: center;
+  height: 300px;
+  width: 800px;
+}
